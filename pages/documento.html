@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="../style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+	<title>Documento de identidad</title>
+</head>
+<body>
+	<main>
+		<div class="container">
+			<div class="mt-3">
+				<img class="flecha" src="../assets/vector.svg" alt="flecha">
+				<span class="flecha-atras"><a href="../index.html">Atras</a></span>
+			</div>
+			<div>
+				<section>
+					<h3 class="dni mt-3 text-center">Documento de identidad</h3>
+					<form class="container">
+						<section>
+							<h5 class="type-document" id="tipo-documento">Tipo de documento</h5>
+								<div class="list-dni mb-1">
+									<input type="radio" id="cedula" name="dni" checked>
+									<label for="cedula" class="type-dni">Cédula</label>
+								</div>
+								<div class="list-dni mb-1">
+									<input type="radio" id="residencia" name="dni">
+									<label for="residencia" class="type-dni">Cédula de residencia</label>
+								</div>
+								<div class="list-dni">
+									<input type="radio" id="pasaporte" name="dni">
+									<label for="pasaporte" class="type-dni">Pasaporte</label>
+								</div>
+							</ul>
+						</section>
+						<section class="mt-3 pb-5">
+							<text class="text-input_dni">Nº de identificación (sin guiones)</text>
+							<input class="input-dni" placeholder="Ejemplo: 0012510930088B">
+						</section>
+						<div class="confirm-form mt-5">
+							<p class="mb-3 info-link" data-bs-toggle="modal" data-bs-target="#exampleModal">¿Por qué me solicitan esta información?</p>
+							<a class="buton-redirect" href="./exito.html"><button type="button" class="btn btn-dark">Continuar</button></a>
+						</div>
+					</form>
+				</section>
+			</div>
+	</div>
+	</main>
+	<!-- Modal -->
+	<div class="modal fade modal-fullscreen" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen-sm-down">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p>
+						Aenean augue magna, vestibulum vitae sapien at, consectetur tristique orci. Nam mauris velit, faucibus eget leo id, imperdiet gravida turpis. Proin euismod pellentesque tristique. Nullam convallis facilisis dictum. Etiam ultricies orci ut dictum vehicula. Quisque ut massa vestibulum, ultricies nisi a, dignissim leo.
+					</p>
+				</div>
+    	</div>
+  	</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

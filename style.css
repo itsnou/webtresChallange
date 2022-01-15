@@ -1,0 +1,138 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.container-logo,
+.container-banner {
+	text-align: center;
+}
+
+.pagraph strong{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	align-self: center;
+}
+
+.btn{
+	width: 100% !important;
+}
+
+.btn-dark{
+	text-decoration: none;
+	font-weight: 700;
+	line-height: 20.11px;
+	color: white;
+}
+
+.btn-outline-dark{
+	color: black;
+}
+
+/* -------------- */
+/* Documento.html */
+/* -------------- */
+
+.flecha{
+	width:16px;
+	height:16px;
+	left:27px;
+}
+
+.flecha-atras{
+	font-size: 14px;
+	line-height: 150%;
+}
+
+.flecha-atras a{
+	text-decoration: none;
+	color: #7C7C7C;
+}
+
+.dni{
+	font-size: 28px;
+	line-height: 35.2px;
+}
+
+.type-dni{
+	font-size: 15;
+	line-height: 18.86px;
+	color: #1A1A1A;
+
+}
+
+.type-document{
+	color: #666666;
+	font-size: 16px;
+	line-height: 20.11px;
+}
+
+.list-dni{
+	height: 42px;
+	background-color: #F5F8FF;
+	border-radius:5px;
+}
+
+.list-dni input, label{
+	margin: 12px 0;
+}
+
+.list-dni label{
+	font-size: 17px;
+	line-height: 19px;
+}
+
+input[type="radio"]:checked{
+  color: black !important; 
+  border: 2px solid black !important;
+}
+
+.text-input_dni{
+	font-size: 16px;
+	line-height: 20.11px;
+	font-weight: 400;
+	color: #666666;
+}
+
+.input-dni{
+	width:100%;
+	border: 1px solid #A1AAC9;
+	background: #FAFBFE;
+	border-radius: 5px;
+	height:37px;
+}
+
+.confirm-form{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.info-link{
+	text-decoration: underline;
+	color:black;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.modal-content{
+	border-radius: 5px !important;
+}
+
+.modal-header{
+	border-bottom: 0px;
+}
+
+.modal-body p{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* ------------- */
+/* Congrats.html */
+/* ------------- */
+
+.text-congrats{
+	font-size: 25px;
+	line-height: 31.2px;
+	color: #3F3D56;
+}
